@@ -8,7 +8,7 @@ class ChoiceInline(admin.TabularInline):
 
 class QuestionAdmin(admin.ModelAdmin):
 	# 分页
-	list_per_page = 2
+	list_per_page = 100
 	# 按照时间筛选
 	list_filter = ['pub_date']
 	# 根据问题字段搜索
